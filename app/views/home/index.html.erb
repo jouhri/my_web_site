@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<title>Oualid Jouhri</title>
+	</head>
+	<body>
+		<header 	>
+			<div id="content_header">
+				<article id="introduction">
+					<h1>Oualid JOUHRI</h1>
+					<!--<img src="images/rubylogo.jpg" alt="logo_ruby" id="logo_ruby">-->
+					<h3>Introduction</h3>
+					<p>Hello! i am french student in master degree at EPITECH University in Paris.<br />
+					Currently i am studying in china for an exchange program.<br /> 
+					I am passionate about internet startups, lean start-up(<a href="http://theleanstartup.com/">eric ries</a>), new technologies and agile methodologies.<br />
+					I'm looking for an intership if you are interested in my profile you can contact me</p>
+				</article>
+			</div>
+		</header>
+		<div id="bloc_page">
+			<section>
+				<span id="formation">
+					<div class="formation_button">
+						<h2 >Education</h2>
+						<!--<img src="images/k3866829.jpg" alt="logo_education" />-->
+					</div>
+					<div class="formation_content">
+						<div class="item_timeline_formation">
+							<p>In development</p>
+							<h3>Master EPITECH 4th years</h3>
+							<p>France Paris Software engineering</p>
+						</div>
+						<div class="item_timeline_formation">
+							<h3>Bachelore EPITECH 3 years</h3>
+							<p>France Marsielle Software engineering</p>
+						</div>
+						<div class="item_timeline_formation">
+							<h3>Costebelle high school</h3>
+							<p>France Network Installation and Maintenance</p>
+						</div>
+					</div>
+				</span>
+					
+				<span id="experience">
+					<div class="experience_button">
+						<h2 >Experience</h2>
+						<!-- <img src="images/experience.png" alt="logo_experience"/> -->
+					</div>
+					<div class="experience_content">
+						<div class="item_timeline_experience">
+							<h3>Wikitrip France Marseille</h3>
+							<p>web development - lead developer Ruby on Rails</p>
+						</div>
+						<div class="item_timeline_experience">
+							<h3>PopWings France la ciotat</h3>
+							<p>web development - lead developer Ruby on Rails</p>
+						</div>
+						<div class="item_timeline_experience">
+							<h3>B+equipement France Marseille</h3>
+							<p>web development - lead developer PHP, HTML, CSS ans mySQL</p>
+						</div>
+					</div>						
+				</span>
+				<span id="contact_me">
+					<div class="contact_me_button">
+						<h2 >Contact Me</h2>
+						<!--<img src="images/contactme.png" alt="logo_contactme"/>-->
+					</div>
+					<div class="contact_me_content">
+						<div class="item_timeline_contact_me">
+							<%= image_tag("profile.jpg", :alt => "photo de profile", :id => "profile") =%>
+						</div>
+						<div class="item_timeline_contact_me">
+							<h3>Social</h3>
+							<div class="social_icon">
+								<a href="http://www.linkedin.com/profile/view?id=78336140&trk=tab_pro"><%= image_tag("linked_in.png", :alt => "logo_linkedIn", :id => "logo_linkedin")  =%></a>
+								<a href="https://github.com/jouhri"><%= image_tag("github.png", :alt => "logo_github", :id => "logo_github") =%></a>
+								<a href="https://twitter.com/wall831"><%= image_tag("twitter.png", :alt => "logo_twitter", :id => "logo_twitter") =%></a>
+							</div>
+						</div>
+						<div class="item_timeline_contact_me">
+							<h3>Skills</h3>
+							<div class="skill">
+								<p>C</p><p>C++</p><p>HTML5</p><p>CSS3</p>				
+								<p>JavaScript</p><p>Ruby</p><p>Scrum</p>
+								<p>Ruby on Rails</p>
+							</div>
+						</div>
+						<div class="item_timeline_contact_me">
+							<h3>More information</h3>
+							<div>
+								<%= image_tag("e-mail.png", :alt => "logo_e-mail", :id => "logo_e-mail") =%> 
+								<a href="mailto:jouhri.oualid@gmail.com">jouhri.oualid@gmail.com</a>
+							</div>
+							<p>Résumé : <a href="JOUHRI_OUALID.pdf">here(pdf)</a></p>
+							
+						</div>
+					</div>						
+				</span>
+			</section>
+		</div>
+		<footer>
+			<div class="mes_amis">
+				<span class="content_footer">
+					<h2>My mentor</h2>
+					<span class="content_mentor">
+						<p><a href="#">Julien petit</a></p>
+						<%= image_tag("photo_julien.jpg", :alt => "photo_mentor", :id => "photo_mentor") =%>
+						<p>CEO WIkitrip</p>
+					</span>
+				</span>
+				<span class="content_footer"> 
+					<h2>Friends developer</h2>
+					<span class="mes_amis_content">
+						<p><a href="#">Mehdi Farsi</a></p>
+						<%= image_tag("farsi_m.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
+						<p>Android<br />
+						& <br /> 
+						ruby on rails</p>
+					</span>
+					<span class="mes_amis_content">
+						<p><a href="#">karim elhalimi</a></p>
+						<%= image_tag("elhali_k.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
+						<p>java</p>
+					</span>
+					<span class="mes_amis_content">
+						<p><a href="#">anouar zemouri</a></p>
+						<%= image_tag("zemour_a.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
+						<p>ios</p>
+					</span>
+					<span class="mes_amis_content">
+						<p><a href="#">samy baili</a></p>
+						<%= image_tag("baili_s.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
+						<p>android</p>
+					</span>
+					<span class="mes_amis_content">
+						<p><a href="#">samie-allah saouchi</a></p>
+						<%= image_tag("saouch_s.jpg",:alt => "friends_photo", :class => "amis_photo")=%>
+						<p>java web app</p>	
+					</span>
+				</span>
+		</footer>
+	</body>
+</html>

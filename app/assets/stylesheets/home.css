@@ -188,9 +188,11 @@ aside p
 	margin: 5px 5px 5px 5px;
 }
 
-.social_icon
+.social_icon, .skill
 {
+	margin-top: 10px;
 }
+
 
 #profile
 {

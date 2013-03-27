@@ -1,7 +1,7 @@
 MyWebSite::Application.routes.draw do
-  get "home/index"
-
   root :to => "home#index"
+
+  match "download" => "home#download"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

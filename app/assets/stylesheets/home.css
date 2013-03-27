@@ -26,6 +26,7 @@ header
 h1,h2,h3
 {
 	font-family:  "OpenSansBold",Helvetica,Arial,sans-serif;
+	margin-top: 0;
 }
 
 .formation_button h2, .experience_button h2, .contact_me_button h2
@@ -42,6 +43,14 @@ h1,h2,h3
     text-align: center;
 }
 
+.formation_button h2, .experience_button h2, .contact_me_button h2
+{
+	margin-top: 36%;
+	text-transform: uppercase;
+
+}
+
+
 .formation_button img:hover, .experience_button img:hover, .contact_me_button img:hover
 {
     opacity: 1;
@@ -54,6 +63,16 @@ h1,h2,h3
 	font-size: 3.5em;
 	display:inline-block;
 	vertical-align: top;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#content_header h2 
+{
+	color:#ad472a;
+	vertical-align: top;
+	margin-top: 0;
+	margin-left: 20%;
 }
 
 #content_header h3

@@ -26,7 +26,7 @@ header
 h1,h2,h3
 {
 	font-family:  "OpenSansBold",Helvetica,Arial,sans-serif;
-	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .formation_button h2, .experience_button h2, .contact_me_button h2
@@ -132,6 +132,7 @@ body
 	border: 0;
 	padding: 20px 25px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 
@@ -189,7 +190,6 @@ aside p
 
 .social_icon
 {
-	padding-left: 40px;
 }
 
 #profile

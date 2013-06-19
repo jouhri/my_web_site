@@ -1,152 +1,289 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="style.css" />
-		<title>Oualid Jouhri</title>
-	</head>
-	<body>
-		<header 	>
-			<div id="content_header">
-				<article id="introduction">
-					<h1>Oualid JOUHRI</h1>
-					<h2>Ruby and Ruby on Rails developer</h2>
-					<h3>Introduction</h3>
-					<p>Hello! I am french student in master degree at EPITECH University in Paris.<br />
-					Currently, I am studying in china for an exchange program.<br /> 
-					I am passionate about internet startups, lean start-up(<a href="http://theleanstartup.com/">eric ries</a>), new technologies and agile methodologies.<br />
-					I'm looking for an internship. If you are interested in my profile you can contact me.</p>
-				</article>
-			</div>
-		</header>
-		<div id="bloc_page">
-			<section>
-				<span id="formation">
-					<div class="formation_button">
-						<h2 >Education</h2>
-					</div>
-					<div class="formation_content">
-						<div class="item_timeline_formation">
-							<p>In development</p>
-							<h3>Master EPITECH 4th years</h3>
-							<p>France Paris Software engineering</p>
-						</div>
-						<div class="item_timeline_formation">
-							<h3>Ruby on Rails corporate Training</h3>
-							<p>with</p>
-							<a href="http://formations.humancoders.com/formations/ruby-on-rails" target="_blank">humancodres</a>
-						</div>
-						<div class="item_timeline_formation">
-							<h3>Agile methodologies corporate Training</h3>
-							<p>with</p>
-							<a href="http://agilidee.com" target="_blank">Agilidee</a>
-						</div>
-						<div class="item_timeline_formation">
-							<h3>Bachelor EPITECH 3 years</h3>
-							<p>France Marseille Software engineering</p>
-						</div>
-						<div class="item_timeline_formation">
-							<h3>Costebelle high school</h3>
-							<p>France Network Installation and Maintenance</p>
-						</div>
-					</div>
-				</span>
-					
-				<span id="experience">
-					<div class="experience_button">
-						<h2 >Experience</h2>
-					</div>
-					<div class="experience_content">
-						<div class="item_timeline_experience">
-							<p>In development</p>
-							<h3>Wikitrip France Marseille</h3>
-							<p>Web development - lead developer Ruby on Rails</p>
-						</div>
-						<div class="item_timeline_experience">
-							<h3>PopWings France la Ciotat</h3>
-							<p>Web development - lead developer Ruby on Rails</p>
-						</div>
-						<div class="item_timeline_experience">
-							<h3>B+equipement France Marseille</h3>
-							<p>Web development - lead developer PHP, HTML, CSS and mySQL</p>
-						</div>
-					</div>						
-				</span>
-				<span id="contact_me">
-					<div class="contact_me_button">
-						<h2 >Contact Me</h2>
-						<!--<img src="images/contactme.png" alt="logo_contactme"/>-->
-					</div>
-					<div class="contact_me_content">
-						<div class="item_timeline_contact_me">
-							<%= image_tag("profile.jpg", :alt => "photo de profile", :id => "profile") =%>
-						</div>
-						<div class="item_timeline_contact_me">
-							<h3>Social</h3>
-							<div class="social_icon">
-								<a href="http://www.linkedin.com/profile/view?id=78336140&trk=tab_pro" target="_blank"><%= image_tag("linked_in.png", :alt => "logo_linkedIn", :id => "logo_linkedin")  =%></a>
-								<a href="https://github.com/jouhri" target="_blank"><%= image_tag("github.png", :alt => "logo_github", :id => "logo_github") =%></a>
-								<a href="https://twitter.com/wall831" target="_blank"><%= image_tag("twitter.png", :alt => "logo_twitter", :id => "logo_twitter") =%></a>
-							</div>
-						</div>
-						<div class="item_timeline_contact_me">
-							<h3>Skills</h3>
-							<div class="skill">
-								<p>C</p><p>C++</p><p>HTML5</p><p>CSS3</p>				
-								<p>JavaScript</p><p>Ruby</p><p>Scrum</p>
-								<p>Ruby on Rails</p>
-							</div>
-						</div>
-						<div class="item_timeline_contact_me">
-							<h3>More information</h3>
-							<div>
-								<a href="mailto:jouhri.oualid@gmail.com">jouhri.oualid@gmail.com</a>
-							</div>
-							<p>Résumé : <a href="JOUHRI_OUALID.pdf"><%= link_to 'Download', :action => :download%>(pdf)</a></p>
-						</div>
-					</div>						
-				</span>
-			</section>
+<header >
+ 	<article> 
+			<h1>Oualid JOUHRI</h1>
+			<h2>Ruby & Ruby on Rails developer</h2>
+			<p>"Hello! I am french student in master degree at EPITECH University in Paris.
+			I am passionate about internet startups, lean start-up(<a href="http://theleanstartup.com/">eric ries</a>), new technologies and agile methodologies.
+			I'm looking for an internship. If you are interested in my profile you can contact me."</p>
+ 	</article> 
+</header>
+<article id="Education">
+	<div class="Education_button">
+		<h2 >Education</h2>
+	</div>
+	<div class="Education_content">
+
+		<div class="ribbon">
+			<h3 >
+				<strong class="ribbon-content">EPITECH 4th years</strong>
+			</h3>
+			<p>China beijing jiaotong university</p>			
 		</div>
-		<footer>
-			<div class="mes_amis">
-				<span class="content_footer">
-					<h2>My mentor</h2>
-					<span class="content_mentor">
-						<p><a href="http://about.me/julienpetit">Julien petit</a></p>
-						<%= image_tag("photo_julien.jpg", :alt => "photo_mentor", :id => "photo_mentor") =%>
-						<p>CEO WIkitrip</p>
+
+
+		<div class="ribbon">
+			<h3 >
+				<strong class="ribbon-content">Ruby on Rails corporate Training</strong>
+			</h3>
+			<p>with : <a href="http://formations.humancoders.com/formations/ruby-on-rails" target="_blank">humancodres</a></p>
+		</div>
+
+
+		<div class="ribbon">
+			<h3 >
+				<strong class="ribbon-content">Agile methodologies corporate Training</strong>
+			</h3>
+			<p>with : <a href="http://agilidee.com" target="_blank">Agilidee</a></p>
+
+		</div>
+
+
+		<div class="ribbon">
+			<h3 >
+				<strong class="ribbon-content">Bachelor EPITECH 3 years</strong>
+			</h3>
+				<p>France Marseille Software engineering</p>
+		</div>
+
+
+		<div class="ribbon">
+			<h3 >
+   				<strong class="ribbon-content">Costebelle high school</strong>
+			</h3>
+				<p>France Network Installation and Maintenance</p>
+		</div>
+	</div>
+</article> 
+<article id="experience">
+	<div class="experience_button">
+		<h2 >Experience</h2>
+	</div>
+
+	<div class="top">
+		<div class="hexagon">
+			<div class="hex_top"></div>
+			<div class="hex_content">
+				<h3>pushContact</h3>
+				<p>lead developer Ruby on Rails</p>
+			</div>
+			<div class="hex_bottom"></div>
+		</div>
+		<div class="hexagon">
+			<div class="hex_top"></div>
+			<div class="hex_content">
+				<h3>Wikitrip</h3>
+				<p>lead developer Ruby on Rails</p>
+			</div>
+			<div class="hex_bottom"></div>
+		</div>
+	</div>
+
+
+	<div class="middle">
+		<div class="hexagon">
+			<div class="hex_top"></div>
+			<div class="hex_content">
+				<h3>PopWings</h3>
+				<p>lead developer Ruby on Rails</p>
+			</div>
+			<div class="hex_bottom"></div>
+		</div>
+		<div class="hexagon">
+			<div class="hex_top"></div>
+			<div class="hex_content">
+				<h3>B+equipement</h3>
+				<p>developer PHP, HTML, CSS </p>
+			</div>
+			<div class="hex_bottom"></div>
+		</div>
+		<div class="hexagon">
+			<div class="hexagon">
+			<div class="hex_top"></div>
+			<div class="hex_content">
+				<h3>Step 2 Step</h3>
+				<p>lead developer Ruby on Rails</p>
+			</div>
+			<div class="hex_bottom"></div>
+		</div>
+
+	</div>
+</article> 
+<section id="Education">
+	<article id="contact_me">
+
+		<div class="contact_me_button">
+			<h2 >About Me</h2>
+		</div>
+
+		
+
+		<div class="contact_me_content">
+			<div class="item_timeline_about_me">
+				<div class="admonition">
+					<div class="admonition-title"><h4>Social</h4></div>
+					<div class="social_icon">
+						<a href="http://www.linkedin.com/profile/view?id=78336140&trk=tab_pro" target="_blank"><%= image_tag("linked_in.png", :alt => "logo_linkedIn", :id => "logo_linkedin")  =%></a>
+						<a href="https://github.com/jouhri" target="_blank"><%= image_tag("github.png", :alt => "logo_github", :id => "logo_github") =%></a>
+						<a href="https://twitter.com/wall831" target="_blank"><%= image_tag("twitter.png", :alt => "logo_twitter", :id => "logo_twitter") =%></a>
+						<a href="http://www.codeschool.com/users/wall83" target="_blank"><%= image_tag("codeschool32.png", :alt => "logo_codeschool", :id => "logo_codeschool")=%></a>
+						<a href="https://coderbits.com/oualid" target="_blank"><%= image_tag("Coderbits Lockup Transparent.png", :alt => "logo_coderbits", :id => "logo_coderbits") =%></a>
+					</div>
+
+				</div>
+			</div>
+			<div class="item_timeline_about_me">
+				<div class="admonition">
+					<div class="admonition-title"><h4>cv & email</h4></div>
+					<div class="cv_pdf">
+						<a href="mailto:jouhri.oualid@gmail.com">jouhri.oualid@gmail.com</a>
+						<p>Résumé : <a href="JOUHRI_OUALID.pdf"><%= link_to 'Download', :action => :download%>(pdf)</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="item_timeline_about_me">
+				<h3>Skills</h3>
+				<div class="skill">
+					<span class="item_skill">
+						<p>C</p>
+						<canvas id="myChart_c" width="100" height="100"></canvas> 
 					</span>
-				</span>
-				<span class="content_footer"> 
-					<h2>Friends developer</h2>
-					<span class="mes_amis_content">
-						<p><a href="#" target="_blank">Mehdi Farsi</a></p>
-						<%= image_tag("farsi_m.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
-						<p>Android<br />
-						& <br /> 
-						ruby on rails</p>
+
+					<span class="item_skill">
+						<p>C++</p>
+						<canvas id="myChart_cpp" width="100" height="100"></canvas>
 					</span>
-					<span class="mes_amis_content">
-						<p><a href="#" target="_blank">karim elhalimi</a></p>
-						<%= image_tag("elhali_k.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
-						<p>java</p>
+
+					<span class="item_skill">
+						<p>HTML5</p>
+						<canvas id="myChart_html5" width="100" height="100"></canvas>
+					</span>	
+
+					<span class="item_skill">
+						<p>CSS3</p>
+						<canvas id="myChart_css3" width="100" height="100"></canvas>
 					</span>
-					<span class="mes_amis_content">
-						<p><a href="#" target="_blank">anouar zemouri</a></p>
-						<%= image_tag("zemour_a.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
-						<p>ios</p>
+
+					<span class="item_skill">
+						<p>JavaScript</p>
+						<canvas id="myChart_javascript" width="100" height="100"></canvas>
 					</span>
-					<span class="mes_amis_content">
-						<p><a href="http://about.me/samy_baili" target="_blank">samy baili</a></p>
-						<%= image_tag("baili_s.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
-						<p>android</p>
+
+
+					<span class="item_skill">
+						<p>Ruby</p>
+						<canvas id="myChart_ruby" width="100" height="100"></canvas>
 					</span>
-					<span class="mes_amis_content">
-						<p><a href="#" target="_blank">samie-allah saouchi</a></p>
-						<%= image_tag("saouch_s.jpg",:alt => "friends_photo", :class => "amis_photo")=%>
-						<p>java web app</p>	
+
+					<span class="item_skill">
+						<p>Scrum</p>
+						<canvas id="myChart_scrum" width="100" height="100"></canvas>
 					</span>
-				</span>
-		</footer>
-	</body>
-</html>
+									
+					<span class="item_skill">
+						<p>Ruby on Rails</p>
+						<canvas id="myChart_ror" width="100" height="100"></canvas>
+					</span>
+				</div>
+			</div>
+		</div>
+ 
+
+
+	</article> 
+<section>  
+<footer class="wrapper">
+	<div class="mes_amis">
+		<span class="content_footer">
+			<h2>My mentor</h2>
+			<span class="content_mentor">
+				<p><a href="http://about.me/julienpetit">Julien petit</a></p>
+				<%= image_tag("julien_petit.jpg", :alt => "photo_mentor", :id => "photo_mentor") =%> 
+				<p>CEO WIkitrip</p>
+			</span>
+		</span>
+		<span class="content_footer">
+			<h2>Friends developer</h2>
+			<p><a>Epitech student</a></p>
+			<div id="myCarousel" class="carousel slide">
+			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			    <li data-target="#myCarousel" data-slide-to="4"></li>
+			  </ol>
+			  <!-- Carousel items -->
+			  <div class="carousel-inner">
+			    <div class="active item"><%= image_tag("farsi_m.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
+			    	<div class="carousel-caption">
+						<h4><a href="http://mehdi-farsi.herokuapp.com/" target="_blank">Mehdi Farsi</a></h4>
+                      	<p>RoR & Android</p>
+                    </div>
+			    </div>
+			    <div class="item"><%= image_tag("elhali_k.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
+					<div class="carousel-caption">
+                      <h4><a href="#" target="_blank">Karim Elhalimi</a></h4>
+                      <p>java</p>
+                    </div>
+			    </div>
+			    <div class="item"><%= image_tag("zemour_a.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
+			    	<div class="carousel-caption">
+                      <h4><a href="#" target="_blank">Anouar Zemouri</a></h4>
+                      <p>IOS</p>
+                    </div>
+			    </div>
+	 			    <div class="item"><%= image_tag("baili_s.jpg", :alt => "friends_photo", :class => "amis_photo") =%>
+	 			    	<div class="carousel-caption">
+	 			    		<h4><a href="http://about.me/samy_baili" target="_blank">Samy Baili</a></h4>
+	 			    		<p>Android</p>
+	 			    	</div>
+	 			    </div> 
+			    <div class="item"><%= image_tag("saouch_s.jpg",:alt => "friends_photo", :class => "amis_photo")=%> 
+			    	<div class="carousel-caption">
+                      <h4><a href="#" target="_blank">samie-allah saouchi</a></h4>
+                      <p>java web app</p>
+                    </div>
+			    </div>
+			  </div>
+			  <!-- Carousel nav -->
+			  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			</div>
+		</span>
+
+
+<!-- 
+		<span class="content_footer"> 
+			<h2>Friends developer</h2>
+			<span class="mes_amis_content">
+				<p><a href="#" target="_blank">Mehdi Farsi</a></p>
+				<%= image_tag("farsi_m.jpg", :alt => "friends_photo", :class => "amis_photo") =%> 
+				<p>Android<br />
+				& <br /> 
+				ruby on rails</p>
+			</span>
+			<span class="mes_amis_content">
+				<p><a href="#" target="_blank">karim elhalimi</a></p>
+
+ -->
+<!-- 				<%= image_tag("elhali_k.jpg", :alt => "friends_photo", :class => "amis_photo") =%> -->
+<!-- 				<p>java</p>
+			</span>
+			<span class="mes_amis_content">
+				<p><a href="#" target="_blank">anouar zemouri</a></p> -->
+<!-- 				<%= image_tag("zemour_a.jpg", :alt => "friends_photo", :class => "amis_photo") =%> -->
+<!-- 				<p>ios</p>
+			</span>
+			<span class="mes_amis_content">
+				<p><a href="http://about.me/samy_baili" target="_blank">samy baili</a></p> -->
+<!-- 				<%= image_tag("baili_s.jpg", :alt => "friends_photo", :class => "amis_photo") =%> -->
+<!-- 				<p>android</p>
+			</span>
+			<span class="mes_amis_content">
+				<p><a href="#" target="_blank">samie-allah saouchi</a></p> -->
+<!-- 				<%= image_tag("saouch_s.jpg",:alt => "friends_photo", :class => "amis_photo")=%> -->
+<!-- 				<p>java web app</p>	
+			</span>
+		</span> -->
+	</div>
+</footer>

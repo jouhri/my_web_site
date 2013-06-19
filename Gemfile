@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem "ggs-rails", "~> 1.0.0"
 gem 'less'
-gem  'therubyracer'
+# gem  'therubyracer'
 gem 'chartjs-rails'
 
 # Bundle edge Rails instead:
@@ -14,7 +14,7 @@ group :development do
 end
 
 group :production do
-  gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
+  # gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
   gem 'pg'
 end
 

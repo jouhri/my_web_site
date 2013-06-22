@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem "ggs-rails", "~> 1.0.0"
-gem  'therubyracer'
+gem 'therubyracer'
+gem 'less-rails'
 gem 'chartjs-rails'
 
 # Bundle edge Rails instead:
@@ -10,7 +11,6 @@ gem 'chartjs-rails'
 
 group :development do
     gem 'sqlite3'
-    gem 'less'
 end
 
 group :production do

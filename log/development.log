@@ -82199,3 +82199,145 @@ Served asset /open-sans-fontfacekit/OpenSans-Light-webfont.woff - 304 Not Modifi
 Connecting to database specified by database.yml
   [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
   [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-22 12:23:10 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 420ms (Views: 419.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/_bis_home.css?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /_bis_home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/GGS.css?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /GGS.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/open-sans-fontfacekit/stylesheet.css?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /open-sans-fontfacekit/stylesheet.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/Chart.js?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /Chart.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/GGS.js?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /GGS.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Chart.min.js?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /Chart.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/chart.js?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /chart.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /bootstrap.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/open-sans-fontfacekit/OpenSans-Bold-webfont.woff" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /open-sans-fontfacekit/OpenSans-Bold-webfont.woff - 304 Not Modified (52ms)
+
+
+Started GET "/assets/open-sans-fontfacekit/OpenSans-Light-webfont.woff" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /open-sans-fontfacekit/OpenSans-Light-webfont.woff - 304 Not Modified (19ms)
+
+
+Started GET "/assets/linked_in.png" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /linked_in.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/black-linen.png" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /black-linen.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/github.png" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /github.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/DSC00959.JPG" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /DSC00959.JPG - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /twitter.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/codeschool32.png" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /codeschool32.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/Coderbits%20Lockup%20Transparent.png" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /Coderbits%20Lockup%20Transparent.png - 304 Not Modified (17ms)
+
+
+Started GET "/assets/julien_petit.jpg" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /julien_petit.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/farsi_m.jpg" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /farsi_m.jpg - 304 Not Modified (7ms)
+
+
+Started GET "/assets/elhali_k.jpg" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /elhali_k.jpg - 304 Not Modified (15ms)
+
+
+Started GET "/assets/baili_s.jpg" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /baili_s.jpg - 304 Not Modified (7ms)
+
+
+Started GET "/assets/zemour_a.jpg" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /zemour_a.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/saouch_s.jpg" for 127.0.0.1 at 2013-06-22 12:23:11 +0200
+Served asset /saouch_s.jpg - 304 Not Modified (10ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (176.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (145.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (180.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('0')

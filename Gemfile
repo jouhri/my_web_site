@@ -3,7 +3,7 @@ ruby "1.9.3"
 
 gem 'rails', '3.2.13'
 
-gem 'therubyracer'
+#gem 'therubyracer'
 gem 'less-rails'
 gem 'chartjs-rails'
 
@@ -15,7 +15,8 @@ group :development do
 end
 
 group :production do
-  gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
+#  gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
+  gem 'therubyracer',  '0.11.1', :platform => :ruby
   gem 'pg'
 end
 

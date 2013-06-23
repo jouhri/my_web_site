@@ -327,10 +327,11 @@ footer
 
 .item_timeline_about_me
 {
-	display: inline-block;	
+	/*display: inline-block;	*/
 	vertical-align: top;
 	padding: 15px;
 	margin-left: 10%;
+	margin-bottom: 5%;
 }
 
 
@@ -363,7 +364,7 @@ social_icon p
 .item_skill
 {
 	display: inline-block;
-	margin-right: 5%;
+	margin-right: 2%;
 	color: #f1c40f;
 	text-align: center;
 }

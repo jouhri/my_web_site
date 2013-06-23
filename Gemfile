@@ -3,9 +3,9 @@ ruby "1.9.3"
 
 gem 'rails', '3.2.13'
 
-#gem 'therubyracer'
 gem 'less-rails'
 gem 'chartjs-rails'
+gem 'therubyracer',  '0.11.1', :platform => :ruby
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -16,7 +16,7 @@ end
 
 group :production do
 #  gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
-  gem 'therubyracer',  '0.11.1', :platform => :ruby
+#  gem 'therubyracer',  '0.11.1', :platform => :ruby
   gem 'pg'
 end
 

@@ -17,6 +17,8 @@ codeschool32.png: codeschool32-27bb965373c01c9997ec46db90a251bc.png
 codeschool32/index.png: codeschool32-27bb965373c01c9997ec46db90a251bc.png
 contactme.png: contactme-4b0721567cfdf46fa2ba3e357d583b5c.png
 contactme/index.png: contactme-4b0721567cfdf46fa2ba3e357d583b5c.png
+cv.png: cv-15fa013a15549adbdd94abdb8955f600.png
+cv/index.png: cv-15fa013a15549adbdd94abdb8955f600.png
 e-mail.png: e-mail-56f04bfdb9202f1e53f8be314ec93f8e.png
 e-mail/index.png: e-mail-56f04bfdb9202f1e53f8be314ec93f8e.png
 education.png: education-3da7e0a0fa9954657e35df7c69031f81.png
@@ -27,8 +29,8 @@ experience.png: experience-e69dfd2468c0e8b3e3bf0591c17df37c.png
 experience/index.png: experience-e69dfd2468c0e8b3e3bf0591c17df37c.png
 farsi_m.jpg: farsi_m-af0211987e581177cd7c67069343e324.jpg
 farsi_m/index.jpg: farsi_m-af0211987e581177cd7c67069343e324.jpg
-github.png: github-7b3673fa894445e7aa58362727fa7ce8.png
-github/index.png: github-7b3673fa894445e7aa58362727fa7ce8.png
+github.png: github-06ef46c5a69823410570370817443e83.png
+github/index.png: github-06ef46c5a69823410570370817443e83.png
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png
@@ -51,10 +53,14 @@ julien_petit.jpg: julien_petit-b0c4b1f1995fc1ba1912e80a849c238b.jpg
 julien_petit/index.jpg: julien_petit-b0c4b1f1995fc1ba1912e80a849c238b.jpg
 k3866829.jpg: k3866829-741687291498c1821b180de7b7bf6f3c.jpg
 k3866829/index.jpg: k3866829-741687291498c1821b180de7b7bf6f3c.jpg
-linked_in.png: linked_in-6ab438eb9d0b08dcc508fd964ffcc84f.png
-linked_in/index.png: linked_in-6ab438eb9d0b08dcc508fd964ffcc84f.png
-mail.png: mail-9341510c83a1b76cf2a4d1960b06f83e.png
-mail/index.png: mail-9341510c83a1b76cf2a4d1960b06f83e.png
+linked_in.png: linked_in-e560632d54c5d3b4dec1c4bfa14e7a68.png
+linked_in/index.png: linked_in-e560632d54c5d3b4dec1c4bfa14e7a68.png
+linkedin.png: linkedin-6ab438eb9d0b08dcc508fd964ffcc84f.png
+linkedin/index.png: linkedin-6ab438eb9d0b08dcc508fd964ffcc84f.png
+mail.png: mail-3ffb174ecb403d387e99fadafcbae5b0.png
+mail/index.png: mail-3ffb174ecb403d387e99fadafcbae5b0.png
+mail2.png: mail2-9341510c83a1b76cf2a4d1960b06f83e.png
+mail2/index.png: mail2-9341510c83a1b76cf2a4d1960b06f83e.png
 photo_julien.jpg: photo_julien-388956e5d9935ff394aa46782859b22a.jpg
 photo_julien/index.jpg: photo_julien-388956e5d9935ff394aa46782859b22a.jpg
 profile.jpg: profile-ae491c5f942c9a0f3d5c77dd1d7cd331.jpg
@@ -67,16 +73,16 @@ saouch_s.jpg: saouch_s-63c772a5e5402201613ce86af9df9bf3.jpg
 saouch_s/index.jpg: saouch_s-63c772a5e5402201613ce86af9df9bf3.jpg
 services-set.png: services-set-c631092d0dc16d352ac77bfb67cbdbfd.png
 services-set/index.png: services-set-c631092d0dc16d352ac77bfb67cbdbfd.png
-twitter.png: twitter-201600c6ee4e3cd4eca5bf32dcfd1bf4.png
-twitter/index.png: twitter-201600c6ee4e3cd4eca5bf32dcfd1bf4.png
+twitter.png: twitter-5ae730c6bca79004b0dfc137be8e7fca.png
+twitter/index.png: twitter-5ae730c6bca79004b0dfc137be8e7fca.png
 twitter_icon.png: twitter_icon-520790629cf4a9d59d777f517604f697.png
 twitter_icon/index.png: twitter_icon-520790629cf4a9d59d777f517604f697.png
 zemour_a.jpg: zemour_a-4ea35c6e9ea12bbad16dfd7e427bb0ce.jpg
 zemour_a/index.jpg: zemour_a-4ea35c6e9ea12bbad16dfd7e427bb0ce.jpg
 application.js: application-e28ba0cc5735aff0d3c6c52619839672.js
 application/index.js: application-e28ba0cc5735aff0d3c6c52619839672.js
-application.css: application-a92b83d80552d66e4580acd034dfbef7.css
-application/index.css: application-a92b83d80552d66e4580acd034dfbef7.css
+application.css: application-a62a6cf5652f5fe37c13d32a4764343f.css
+application/index.css: application-a62a6cf5652f5fe37c13d32a4764343f.css
 open-sans-fontfacekit/Apache License Version 2.txt: open-sans-fontfacekit/Apache License
   Version 2-65e79d122178775665a2b952ddb8b22d.txt
 open-sans-fontfacekit/Apache License Version 2/index.txt: open-sans-fontfacekit/Apache

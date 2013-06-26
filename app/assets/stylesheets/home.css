@@ -45,17 +45,24 @@ body
 
 header
 {
-	box-sizing: border-box;
-    width: 100%;
+  	/*  width: 100%;*/
     margin-left: 0;
-    padding: 0 0.75em;
-	background : url("DSC00959.JPG");
-	background-size: 100%;
-	background-repeat: no-repeat;
+    /*padding: 0 0.75em;*/
+	/*background : url("DSC00959.JPG");*/
+	/*	background-size: 100%;*/
+	/*	background-repeat: no-repeat;*/
 	color:#fff;
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-	height: 800px;
-	padding-top: 72px;
+	height: 100%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin-padding: 20%;
+
+	background: url("DSC00959.JPG") no-repeat top center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 header article

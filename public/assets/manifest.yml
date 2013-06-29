@@ -63,6 +63,8 @@ mail.png: mail-3ffb174ecb403d387e99fadafcbae5b0.png
 mail/index.png: mail-3ffb174ecb403d387e99fadafcbae5b0.png
 mail2.png: mail2-9341510c83a1b76cf2a4d1960b06f83e.png
 mail2/index.png: mail2-9341510c83a1b76cf2a4d1960b06f83e.png
+note.png: note-cc0ffef13e49f0c202c9ceedccaa70b2.png
+note/index.png: note-cc0ffef13e49f0c202c9ceedccaa70b2.png
 photo_julien.jpg: photo_julien-388956e5d9935ff394aa46782859b22a.jpg
 photo_julien/index.jpg: photo_julien-388956e5d9935ff394aa46782859b22a.jpg
 profile.jpg: profile-ae491c5f942c9a0f3d5c77dd1d7cd331.jpg
@@ -83,8 +85,8 @@ zemour_a.jpg: zemour_a-4ea35c6e9ea12bbad16dfd7e427bb0ce.jpg
 zemour_a/index.jpg: zemour_a-4ea35c6e9ea12bbad16dfd7e427bb0ce.jpg
 application.js: application-e28ba0cc5735aff0d3c6c52619839672.js
 application/index.js: application-e28ba0cc5735aff0d3c6c52619839672.js
-application.css: application-5fb4c6da9f2fec9f53a3fca76ac89edc.css
-application/index.css: application-5fb4c6da9f2fec9f53a3fca76ac89edc.css
+application.css: application-96d9530087d51c310aa0558733ab8e9d.css
+application/index.css: application-96d9530087d51c310aa0558733ab8e9d.css
 open-sans-fontfacekit/Apache License Version 2.txt: open-sans-fontfacekit/Apache License
   Version 2-65e79d122178775665a2b952ddb8b22d.txt
 open-sans-fontfacekit/Apache License Version 2/index.txt: open-sans-fontfacekit/Apache
